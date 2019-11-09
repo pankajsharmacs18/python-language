@@ -1,0 +1,12 @@
+marks = int(input("Enter the marks? "))  
+f marks > 85 and marks <= 100:  
+   print("Congrats ! you scored grade A ...")  
+lif marks > 60 and marks <= 85:  
+   print("You scored grade B + ...")  
+lif marks > 40 and marks <= 60:  
+# pankaj sharma
+   print("You scored grade B ...")  
+lif (marks > 30 and marks <= 40):  
+   print("You scored grade C ...")  
+lse:  
+   print("Sorry you are fail ?")  
