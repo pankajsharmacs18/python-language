@@ -1,0 +1,5 @@
+range = int(input("enter range "))
+i=1;  
+while i<=range:  
+    print(i);  
+    i=i+1;  
