@@ -1,0 +1,4 @@
+import sys
+value=input("enter value with ,")
+list =value.split(".");
+print("file extension is :"+list[-1])
