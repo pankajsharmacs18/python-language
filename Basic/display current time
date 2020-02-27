@@ -1,0 +1,5 @@
+import datetime
+now=datetime.datetime.now();
+print("current time is :");
+print(now.starttime("%Y-%M-%D %H:%M:%S"));
+
