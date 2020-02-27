@@ -1,0 +1,5 @@
+import sys
+value=input("enter value with ,")
+list =value.split(",");
+print(list)
+print("in tuple formate :",tuple(list))
