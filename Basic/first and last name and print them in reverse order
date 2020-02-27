@@ -1,0 +1,6 @@
+import sys
+fname=input("enter first name :")
+sname=input("enter sir name :");
+print("given name is "+fname+"sirname is "+sname);
+print("reverse is "+sname+ " "+fname );
+
