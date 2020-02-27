@@ -1,0 +1,4 @@
+import sys
+value=input("enter value with ,");
+
+print(int(value*3)+int(value*2)+int(value))
