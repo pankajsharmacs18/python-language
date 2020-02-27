@@ -1,3 +1,4 @@
 import sys
 print("system current verson :");
 print(sys.version);
+print(sys.version_info);
