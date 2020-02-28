@@ -1,0 +1,6 @@
+import sys
+num1=int(input("enter input"))
+num2=int(input("enter input"))
+print("num1 is %d \n and secound is %d"%(num1,num2))
+num1,num2=num2,num1
+print("num1 is %d \n and secound is %d"%(num1,num2))
