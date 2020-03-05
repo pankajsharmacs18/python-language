@@ -1,0 +1,24 @@
+import sys
+def strcount(str):
+    cap="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    sam="abcdefghijklmnopqrstuvwxyz";
+    num="1234567890";
+    small=0;
+    capC=0;
+    numc=0;
+    spe=0;
+    for i in range(len(str)):
+        if str[i] in cap:
+            capC=capC+1;
+        elif str[i] in sam:
+            small=small+1;
+        elif str[i] in num:
+            numc=numc+1;
+        else:
+            spe=spe+1;
+    print("small latter is :",small," \n capitall latter is + ",capC," \nnumric is + ",numc," and specila charecter is ",spe)
+    return
+str=input("ener string  :")
+print("input string is :",str)
+print(" \n reverse is  :",strcount(str))
+
