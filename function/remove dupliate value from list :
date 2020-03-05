@@ -1,0 +1,13 @@
+import sys
+def removeDupliacte(lst):
+    lst2=[]
+    for i in lst:
+        if i not in lst2:
+            lst2.append(i)
+    return lst2
+num=int(input("enter range "))
+lst=[]
+for i in range(num):
+    lst.append(int(input("enter value ")))
+print(lst," \n new list is :")
+print(removeDupliacte(lst))
