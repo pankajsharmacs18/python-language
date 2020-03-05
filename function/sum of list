@@ -1,0 +1,12 @@
+import sys
+def sum(list):
+    sum=0;
+    for i in list:
+        sum=sum+i
+    return sum
+
+rang=int(input("enter range of list :"))
+list=[]
+for i in range(rang):
+    list.append(int(input("Enter value : ")))
+print(sum(list))
