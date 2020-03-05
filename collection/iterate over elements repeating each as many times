@@ -1,0 +1,14 @@
+import sys
+num=int(input("enter range : "))
+lst=[]
+for i in range(num):
+    lst.append(int(input("enter value ")))
+print(lst)
+for i in set(lst):
+    count=0;
+    for j in lst:
+        if i==j:
+            count=count+1;
+    if count<2:
+        lst.remove(i)
+print(lst)
