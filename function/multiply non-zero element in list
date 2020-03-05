@@ -1,0 +1,17 @@
+import sys
+def mul(list):
+    mul=1;
+    count=0
+    for i in list:
+        if i!=0:
+            mul=mul*i
+        else:
+            count=count+1
+    print("total 0 in list is : ",count)
+    return mul
+
+rang=int(input("enter range of list :"))
+list=[]
+for i in range(rang):
+    list.append(int(input("Enter value : ")))
+print(mul(list))
