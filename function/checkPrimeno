@@ -1,0 +1,11 @@
+def primeNo(n):
+    coumt=0;
+    for i in range(2,n):
+        if(n%i==0):
+            coumt=coumt+1
+            break
+    if(coumt==1):
+        return "Not Prime "
+    else:
+        return "Prime No"
+print(primeNo(int(input("enter number "))))
