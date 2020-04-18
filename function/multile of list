@@ -1,0 +1,10 @@
+def mulList(lst):
+    mul=1
+    for i in lst:
+        mul=mul*i
+    return mul
+lst=[]
+for i in range(int(input("enter range : "))):
+    lst.append(int(input()))
+print(lst)
+print(mulList(lst))
