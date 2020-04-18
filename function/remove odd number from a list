@@ -1,0 +1,10 @@
+def removeOdd(lst):
+    for i in lst:
+        if(i%2!=0):
+            lst.remove(i)
+    return lst
+
+lst=[]
+for i in range(int(input("enter limit :"))):
+    lst.append(int(input()))
+print(removeOdd(lst))
